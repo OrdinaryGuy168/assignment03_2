@@ -1,4 +1,31 @@
-[2014/01/05 06:50:29] Receved errorcode: 401
-[2014/01/05 06:51:38] Received errorcode: 401
-[2014/01/05 06:59:16] Received errorcode: 410
-[2014/01/05 07:08:37] Everythings fine with received errorcode.
+[2014/01/06 06:18:09] user is not set in session.
+[2014/01/06 06:19:25] user is not set in session.
+[2014/01/06 06:19:29] user is not set in session.
+[2014/01/06 06:22:51] user is not set in session.
+[2014/01/06 06:25:01] user is not set in session.
+[2014/01/06 06:28:04] For Session , user is not set.
+[2014/01/06 06:28:41] For Session 7dfu2c16dns381avtem0ct5qa6, user is not set.
+[2014/01/06 06:34:31] For Session 7dfu2c16dns381avtem0ct5qa6, user is not set.
+[2014/01/06 07:49:20] Received errorcode: 400
+[2014/01/06 07:49:20] Mail to: email1@email.com
+
+[2014/01/06 07:49:20] Mail to: email2@email.com
+
+[2014/01/06 07:50:19] Everythings fine with the received errorcode.
+[2014/01/06 07:50:19] Mail to: email1@email.com
+
+[2014/01/06 07:50:19] Mail to: email2@email.com
+
+[2014/01/06 08:02:54] For Session kpm11vcl2v75k0u479e86e1fj1, user is not set.
+[2014/01/06 08:07:19] For Session kpm11vcl2v75k0u479e86e1fj1, user is not set.
+[2014/01/06 08:07:52] For Session kpm11vcl2v75k0u479e86e1fj1, user is not set.
+[2014/01/06 08:08:00] Everythings fine with the received errorcode.
+[2014/01/06 08:08:00] Mail to: email1@email.com
+
+[2014/01/06 08:08:00] Mail to: email2@email.com
+
+[2014/01/06 08:17:32] Everythings fine with the received errorcode.
+[2014/01/06 08:17:32] Mail to: email1@email.com
+
+[2014/01/06 08:17:32] Mail to: email2@email.com
+
