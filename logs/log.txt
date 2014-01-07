@@ -1,0 +1,140 @@
+[2014/01/07 06:00:48] localhost via TCP/IP
+
+[2014/01/07 06:00:48] Id is: 7
+[2014/01/07 06:01:23] Everythings fine with the received errorcode.
+[2014/01/07 06:01:23] Mail to: email1@email.com
+
+[2014/01/07 06:01:23] Mail to: email2@email.com
+
+[2014/01/07 06:01:49] localhost via TCP/IP
+
+[2014/01/07 06:01:49] Number of rows for session_id 7: 1
+[2014/01/07 06:02:00] localhost via TCP/IP
+
+[2014/01/07 06:02:00] Number of rows for session_id 7: 1
+[2014/01/07 06:02:00] localhost via TCP/IP
+
+[2014/01/07 06:02:00] Number of rows for session_id 7: 1
+[2014/01/07 06:02:00] localhost via TCP/IP
+
+[2014/01/07 06:02:00] Prepare failed: (1146) Table 'sme.sessions_participants' doesn't exist
+[2014/01/07 06:03:20] localhost via TCP/IP
+
+[2014/01/07 06:03:20] Number of rows for session_id 7: 1
+[2014/01/07 06:03:20] localhost via TCP/IP
+
+[2014/01/07 06:03:20] Number of rows for session_id 7: 1
+[2014/01/07 06:03:20] localhost via TCP/IP
+
+[2014/01/07 06:03:20] Session participation created. (7, 0)
+[2014/01/07 10:31:57] localhost via TCP/IP
+
+[2014/01/07 10:31:59] Id is: 
+[2014/01/07 10:32:48] localhost via TCP/IP
+
+[2014/01/07 10:32:48] Id is: 
+[2014/01/07 10:32:54] Everythings fine with the received errorcode.
+[2014/01/07 10:32:54] Mail to: email1@email.com
+
+[2014/01/07 10:32:54] Mail to: email2@email.com
+
+[2014/01/07 10:40:45] localhost via TCP/IP
+
+[2014/01/07 10:40:45] Number of rows for session_id : 0
+[2014/01/07 10:40:45] localhost via TCP/IP
+
+[2014/01/07 10:40:45] Number of rows for session_id : 0
+[2014/01/07 10:40:45] localhost via TCP/IP
+
+[2014/01/07 10:40:45] Number of rows for session_id : 0
+[2014/01/07 10:41:36] localhost via TCP/IP
+
+[2014/01/07 10:41:36] Number of rows for session_id : 0
+[2014/01/07 10:42:36] localhost via TCP/IP
+
+[2014/01/07 10:42:36] Id is: 
+[2014/01/07 10:48:35] localhost via TCP/IP
+
+[2014/01/07 10:48:35] Id is: 11
+[2014/01/07 10:48:41] Everythings fine with the received errorcode.
+[2014/01/07 10:48:41] Mail to: email1@email.com
+
+[2014/01/07 10:48:41] Mail to: email2@email.com
+
+[2014/01/07 10:49:00] localhost via TCP/IP
+
+[2014/01/07 10:49:00] Number of rows for session_id : 0
+[2014/01/07 10:49:00] localhost via TCP/IP
+
+[2014/01/07 10:49:00] Number of rows for session_id : 0
+[2014/01/07 10:49:00] localhost via TCP/IP
+
+[2014/01/07 10:49:00] Number of rows for session_id : 0
+[2014/01/07 10:50:57] localhost via TCP/IP
+
+[2014/01/07 10:50:57] Id is: 12
+[2014/01/07 10:51:01] Everythings fine with the received errorcode.
+[2014/01/07 10:51:01] Mail to: email1@email.com
+
+[2014/01/07 10:51:01] Mail to: email2@email.com
+
+[2014/01/07 10:56:48] localhost via TCP/IP
+
+[2014/01/07 10:56:48] Number of rows for session_id 12: 1
+[2014/01/07 10:56:48] localhost via TCP/IP
+
+[2014/01/07 10:56:48] Found user 
+[2014/01/07 10:56:48] localhost via TCP/IP
+
+[2014/01/07 10:56:48] Number of rows for session_id 12: 1
+[2014/01/07 10:56:48] localhost via TCP/IP
+
+[2014/01/07 10:56:48] TV show found: 
+[2014/01/07 10:56:48] localhost via TCP/IP
+
+[2014/01/07 10:56:48] Number of rows for session_id 12: 1
+[2014/01/07 10:58:35] localhost via TCP/IP
+
+[2014/01/07 10:58:35] Number of rows for session_id 12: 1
+[2014/01/07 10:58:35] localhost via TCP/IP
+
+[2014/01/07 10:58:35] Found user Grandma Gerda
+[2014/01/07 10:58:35] localhost via TCP/IP
+
+[2014/01/07 10:58:35] Number of rows for session_id 12: 1
+[2014/01/07 10:58:35] localhost via TCP/IP
+
+[2014/01/07 10:58:35] TV show found: Wheel of Fortune
+[2014/01/07 10:58:35] localhost via TCP/IP
+
+[2014/01/07 10:58:35] Number of rows for session_id 12: 1
+[2014/01/07 11:00:36] localhost via TCP/IP
+
+[2014/01/07 11:00:36] Number of rows for session_id 12: 1
+[2014/01/07 11:00:36] localhost via TCP/IP
+
+[2014/01/07 11:00:36] Found user Grandma Gerda
+[2014/01/07 11:00:36] localhost via TCP/IP
+
+[2014/01/07 11:00:36] Number of rows for session_id 12: 1
+[2014/01/07 11:00:36] localhost via TCP/IP
+
+[2014/01/07 11:00:36] TV show found: Wheel of Fortune
+[2014/01/07 11:00:36] localhost via TCP/IP
+
+[2014/01/07 11:00:36] Number of rows for session_id 12: 1
+[2014/01/07 11:00:36] localhost via TCP/IP
+
+[2014/01/07 11:00:36] Number of rows for session_id 12: 1
+[2014/01/07 11:00:36] localhost via TCP/IP
+
+[2014/01/07 11:00:36] Found user Grandma Gerda
+[2014/01/07 11:00:36] localhost via TCP/IP
+
+[2014/01/07 11:00:36] Number of rows for session_id 12: 1
+[2014/01/07 11:00:36] localhost via TCP/IP
+
+[2014/01/07 11:00:36] TV show found: Wheel of Fortune
+[2014/01/07 11:00:36] localhost via TCP/IP
+
+[2014/01/07 11:00:36] Number of rows for session_id 12: 1

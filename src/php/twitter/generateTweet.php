@@ -1,13 +1,12 @@
 <?php
 session_start();
 
-require_once ('helper/logger.php');
+require_once ('../helper/logger.php');
 require_once ('twitteroauth/twitteroauth.php');	
 
 function tweet_post($tweet) {
 	if (strlen ( $tweet ) > 140)
-		return 'Sorry, tweet can
-not be posted. Tweet character length excced its limit.'; // check for maximum tweet character 
+		logToFile('Teet is to long'); 
 	$hasPost = true; 
 	$tweetOauth = new
 	TwitterOAuth ( $_SESSION['tw_consumer_key'], $_SESSION['tw_consumer_secret'], $_SESSION['tw_access_token'], $_SESSION['tw_access_token_secret'] ); // connect with the OAuth
@@ -24,10 +23,11 @@ not be posted. Tweet character length excced its limit.'; // check for maximum t
 	return $hasPost;
 } 
 function getEmailsFromUser($user){
+	// TODO: DB here
 	return array('email1@email.com', 'email2@email.com');
 }
 if(isset($_SESSION['user'])){
-	$message = $_SESSION['user']." is watching ".$_SESSION['tv_show'].". If you want to join visit: http://localhost/php/relative_login.php?user=".htmlspecialchars($_SESSION['user'])."&tv_show=".htmlspecialchars($_SESSION['tv_show']);
+	$message = $_SESSION['user']." is watching ".$_SESSION['tv_show'].". If you want to join visit: http://localhost/php/twitter/twitterRedirect.php?tvsid=".$_SESSION['tv_session_id'];
 	tweet_post( $message ); 
 	$emails = getEmailsFromUser($_SESSION['user']);
 	foreach ($emails as $email){
@@ -40,5 +40,5 @@ if(isset($_SESSION['user'])){
 } else {
 	logToFile('For Session '.session_id().', user is not set.');
 }
-header('../index.php');	
+header('Location: http://localhost/php/index.php');	
 ?>
