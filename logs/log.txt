@@ -138,3 +138,451 @@
 [2014/01/07 11:00:36] localhost via TCP/IP
 
 [2014/01/07 11:00:36] Number of rows for session_id 12: 1
+[2014/01/08 11:29:21] localhost via TCP/IP
+
+[2014/01/08 11:29:23] Id is: 12
+[2014/01/08 11:31:12] Everythings fine with the received errorcode.
+[2014/01/08 11:31:12] Mail to: email1@email.com
+
+[2014/01/08 11:31:12] Mail to: email2@email.com
+
+[2014/01/08 11:31:13] localhost via TCP/IP
+
+[2014/01/08 11:31:13] Id is: 12
+[2014/01/08 11:35:37] localhost via TCP/IP
+
+[2014/01/08 11:35:38] Number of rows for session_id : 0
+[2014/01/08 11:35:38] localhost via TCP/IP
+
+[2014/01/08 11:35:38] Number of rows for session_id : 0
+[2014/01/08 11:35:38] localhost via TCP/IP
+
+[2014/01/08 11:35:38] Number of rows for session_id : 0
+[2014/01/08 11:36:14] localhost via TCP/IP
+
+[2014/01/08 11:36:14] Number of rows for session_id : 0
+[2014/01/08 11:36:14] localhost via TCP/IP
+
+[2014/01/08 11:36:14] Number of rows for session_id : 0
+[2014/01/08 11:36:14] localhost via TCP/IP
+
+[2014/01/08 11:36:14] Number of rows for session_id : 0
+[2014/01/08 11:39:56] localhost via TCP/IP
+
+[2014/01/08 11:39:56] Number of rows for session_id 12: 1
+[2014/01/08 11:39:56] localhost via TCP/IP
+
+[2014/01/08 11:39:56] Found user Grandma Gerda
+[2014/01/08 11:39:56] localhost via TCP/IP
+
+[2014/01/08 11:39:56] Number of rows for session_id 12: 1
+[2014/01/08 11:39:56] localhost via TCP/IP
+
+[2014/01/08 11:39:56] TV show found: Wheel of Fortune
+[2014/01/08 11:39:56] localhost via TCP/IP
+
+[2014/01/08 11:39:56] Number of rows for session_id 12: 1
+[2014/01/08 11:40:33] localhost via TCP/IP
+
+[2014/01/08 11:40:33] Number of rows for session_id 12: 1
+[2014/01/08 11:40:33] localhost via TCP/IP
+
+[2014/01/08 11:40:33] Found user Grandma Gerda
+[2014/01/08 11:40:33] localhost via TCP/IP
+
+[2014/01/08 11:40:33] Number of rows for session_id 12: 1
+[2014/01/08 11:40:33] localhost via TCP/IP
+
+[2014/01/08 11:40:33] TV show found: Wheel of Fortune
+[2014/01/08 11:40:33] localhost via TCP/IP
+
+[2014/01/08 11:40:33] Number of rows for session_id 12: 1
+[2014/01/08 01:13:07] localhost via TCP/IP
+
+[2014/01/08 01:13:08] Number of rows for session_id 12: 1
+[2014/01/08 01:13:08] localhost via TCP/IP
+
+[2014/01/08 01:13:09] Session participation created. (12, Hans)
+[2014/01/08 01:13:12] localhost via TCP/IP
+
+[2014/01/08 01:13:12] Number of rows for session_id 12: 1
+[2014/01/08 01:13:12] localhost via TCP/IP
+
+[2014/01/08 01:13:12] Execute failed: (1062) Duplicate entry '12-Hans' for key 'PRIMARY'
+[2014/01/08 01:13:12] Session participation created. (12, Hans)
+[2014/01/08 01:13:13] localhost via TCP/IP
+
+[2014/01/08 01:13:13] Number of rows for session_id 12: 1
+[2014/01/08 01:13:13] localhost via TCP/IP
+
+[2014/01/08 01:13:13] Execute failed: (1062) Duplicate entry '12-Hans' for key 'PRIMARY'
+[2014/01/08 01:13:13] Session participation created. (12, Hans)
+[2014/01/08 01:15:20] localhost via TCP/IP
+
+[2014/01/08 01:15:20] Number of rows for session_id 12: 1
+[2014/01/08 01:15:20] localhost via TCP/IP
+
+[2014/01/08 01:15:20] Execute failed: (1062) Duplicate entry '12-Hans' for key 'PRIMARY'
+[2014/01/08 01:15:20] Session participation created. (12, Hans)
+[2014/01/08 01:15:23] localhost via TCP/IP
+
+[2014/01/08 01:15:23] Number of rows for session_id 12: 1
+[2014/01/08 01:15:23] localhost via TCP/IP
+
+[2014/01/08 01:15:23] Session participation deleted. (12, Hans)
+[2014/01/08 01:15:46] localhost via TCP/IP
+
+[2014/01/08 01:15:46] Number of rows for session_id 12: 1
+[2014/01/08 01:15:46] localhost via TCP/IP
+
+[2014/01/08 01:15:46] Session participation deleted. (12, Hans)
+[2014/01/08 01:15:47] localhost via TCP/IP
+
+[2014/01/08 01:15:47] Number of rows for session_id 12: 1
+[2014/01/08 01:15:47] localhost via TCP/IP
+
+[2014/01/08 01:15:47] Session participation deleted. (12, Hans)
+[2014/01/08 01:15:48] localhost via TCP/IP
+
+[2014/01/08 01:15:48] Number of rows for session_id 12: 1
+[2014/01/08 01:15:48] localhost via TCP/IP
+
+[2014/01/08 01:15:48] Session participation deleted. (12, Hans)
+[2014/01/08 01:15:48] localhost via TCP/IP
+
+[2014/01/08 01:15:48] Number of rows for session_id 12: 1
+[2014/01/08 01:15:48] localhost via TCP/IP
+
+[2014/01/08 01:15:48] Session participation deleted. (12, Hans)
+[2014/01/08 01:16:33] localhost via TCP/IP
+
+[2014/01/08 01:16:33] Number of rows for session_id 12: 1
+[2014/01/08 01:16:33] localhost via TCP/IP
+
+[2014/01/08 01:16:33] Session participation deleted. (12, Hans)
+[2014/01/08 01:16:35] localhost via TCP/IP
+
+[2014/01/08 01:16:35] Number of rows for session_id : 0
+[2014/01/08 01:17:16] localhost via TCP/IP
+
+[2014/01/08 01:17:16] Number of rows for session_id : 0
+[2014/01/08 01:17:18] localhost via TCP/IP
+
+[2014/01/08 01:17:18] Number of rows for session_id : 0
+[2014/01/08 01:17:18] localhost via TCP/IP
+
+[2014/01/08 01:17:18] Number of rows for session_id : 0
+[2014/01/08 01:17:19] localhost via TCP/IP
+
+[2014/01/08 01:17:19] Number of rows for session_id : 0
+[2014/01/08 01:29:45] localhost via TCP/IP
+
+[2014/01/08 01:29:45] Number of rows for session_id : 0
+[2014/01/08 01:34:23] localhost via TCP/IP
+
+[2014/01/08 01:34:23] Number of rows for session_id 12: 1
+[2014/01/08 01:34:23] localhost via TCP/IP
+
+[2014/01/08 01:34:23] Found user Grandma Gerda
+[2014/01/08 01:34:23] localhost via TCP/IP
+
+[2014/01/08 01:34:23] Number of rows for session_id 12: 1
+[2014/01/08 01:34:23] localhost via TCP/IP
+
+[2014/01/08 01:34:23] TV show found: Wheel of Fortune
+[2014/01/08 01:34:23] localhost via TCP/IP
+
+[2014/01/08 01:34:23] Number of rows for session_id 12: 1
+[2014/01/08 02:28:45] localhost via TCP/IP
+
+[2014/01/08 02:28:45] Number of rows for session_id 12: 0
+[2014/01/08 02:28:45] localhost via TCP/IP
+
+[2014/01/08 02:28:45] Number of rows for session_id 12: 0
+[2014/01/08 02:28:45] localhost via TCP/IP
+
+[2014/01/08 02:28:45] Number of rows for session_id 12: 0
+[2014/01/08 02:29:01] localhost via TCP/IP
+
+[2014/01/08 02:29:01] Number of rows for session_id 12: 0
+[2014/01/08 02:29:01] localhost via TCP/IP
+
+[2014/01/08 02:29:01] Number of rows for session_id 12: 0
+[2014/01/08 02:29:01] localhost via TCP/IP
+
+[2014/01/08 02:29:01] Number of rows for session_id 12: 0
+[2014/01/08 02:29:07] localhost via TCP/IP
+
+[2014/01/08 02:29:07] Number of rows for session_id 12: 0
+[2014/01/08 02:29:07] localhost via TCP/IP
+
+[2014/01/08 02:29:07] Number of rows for session_id 12: 0
+[2014/01/08 02:29:07] localhost via TCP/IP
+
+[2014/01/08 02:29:07] Number of rows for session_id 12: 0
+[2014/01/08 02:29:11] localhost via TCP/IP
+
+[2014/01/08 02:29:11] Number of rows for session_id 12: 0
+[2014/01/08 02:29:11] localhost via TCP/IP
+
+[2014/01/08 02:29:11] Number of rows for session_id 12: 0
+[2014/01/08 02:29:11] localhost via TCP/IP
+
+[2014/01/08 02:29:11] Number of rows for session_id 12: 0
+[2014/01/08 02:29:31] localhost via TCP/IP
+
+[2014/01/08 02:29:31] Number of rows for session_id 14: 1
+[2014/01/08 02:29:31] localhost via TCP/IP
+
+[2014/01/08 02:29:31] Found user Grandma Gerda
+[2014/01/08 02:29:31] localhost via TCP/IP
+
+[2014/01/08 02:29:31] Number of rows for session_id 14: 1
+[2014/01/08 02:29:31] localhost via TCP/IP
+
+[2014/01/08 02:29:31] TV show found: Wheel of Fortune
+[2014/01/08 02:29:31] localhost via TCP/IP
+
+[2014/01/08 02:29:31] Number of rows for session_id 14: 1
+[2014/01/08 02:30:22] localhost via TCP/IP
+
+[2014/01/08 02:30:22] Number of rows for relative something@something.com and password qwert: 1
+[2014/01/08 02:30:22] localhost via TCP/IP
+
+[2014/01/08 02:30:22] Got relative name: Hans
+[2014/01/08 02:31:05] localhost via TCP/IP
+
+[2014/01/08 02:31:05] Number of rows for session_id 14: 1
+[2014/01/08 02:31:05] localhost via TCP/IP
+
+[2014/01/08 02:31:05] Found user Grandma Gerda
+[2014/01/08 02:31:05] localhost via TCP/IP
+
+[2014/01/08 02:31:05] Number of rows for session_id 14: 1
+[2014/01/08 02:31:05] localhost via TCP/IP
+
+[2014/01/08 02:31:05] TV show found: Wheel of Fortune
+[2014/01/08 02:31:05] localhost via TCP/IP
+
+[2014/01/08 02:31:05] Number of rows for session_id 14: 1
+[2014/01/08 02:31:51] localhost via TCP/IP
+
+[2014/01/08 02:31:51] Number of rows for session_id 14: 1
+[2014/01/08 02:31:51] localhost via TCP/IP
+
+[2014/01/08 02:31:51] Session participation created. (14, Hans)
+[2014/01/08 02:36:41] localhost via TCP/IP
+
+[2014/01/08 02:36:41] Number of rows for session_id 14: 1
+[2014/01/08 02:36:41] localhost via TCP/IP
+
+[2014/01/08 02:36:41] Found user Grandma Gerda
+[2014/01/08 02:36:41] localhost via TCP/IP
+
+[2014/01/08 02:36:41] Number of rows for session_id 14: 1
+[2014/01/08 02:36:41] localhost via TCP/IP
+
+[2014/01/08 02:36:41] TV show found: Wheel of Fortune
+[2014/01/08 02:36:41] localhost via TCP/IP
+
+[2014/01/08 02:36:41] Number of rows for session_id 14: 1
+[2014/01/08 02:36:45] localhost via TCP/IP
+
+[2014/01/08 02:36:45] Number of rows for session_id 14: 1
+[2014/01/08 02:36:45] localhost via TCP/IP
+
+[2014/01/08 02:36:45] Execute failed: (1048) Column 'relative' cannot be null
+[2014/01/08 02:36:45] Session participation created. (14, )
+[2014/01/08 02:36:54] localhost via TCP/IP
+
+[2014/01/08 02:36:54] Number of rows for session_id 14: 1
+[2014/01/08 02:36:54] localhost via TCP/IP
+
+[2014/01/08 02:36:54] Found user Grandma Gerda
+[2014/01/08 02:36:54] localhost via TCP/IP
+
+[2014/01/08 02:36:54] Number of rows for session_id 14: 1
+[2014/01/08 02:36:54] localhost via TCP/IP
+
+[2014/01/08 02:36:54] TV show found: Wheel of Fortune
+[2014/01/08 02:36:54] localhost via TCP/IP
+
+[2014/01/08 02:36:54] Number of rows for session_id 14: 1
+[2014/01/08 02:36:55] localhost via TCP/IP
+
+[2014/01/08 02:36:55] Number of rows for session_id 14: 1
+[2014/01/08 02:36:55] localhost via TCP/IP
+
+[2014/01/08 02:36:55] Found user Grandma Gerda
+[2014/01/08 02:36:55] localhost via TCP/IP
+
+[2014/01/08 02:36:55] Number of rows for session_id 14: 1
+[2014/01/08 02:36:55] localhost via TCP/IP
+
+[2014/01/08 02:36:55] TV show found: Wheel of Fortune
+[2014/01/08 02:36:55] localhost via TCP/IP
+
+[2014/01/08 02:36:55] Number of rows for session_id 14: 1
+[2014/01/08 02:36:59] localhost via TCP/IP
+
+[2014/01/08 02:36:59] Number of rows for session_id 14: 1
+[2014/01/08 02:36:59] localhost via TCP/IP
+
+[2014/01/08 02:36:59] Found user Grandma Gerda
+[2014/01/08 02:36:59] localhost via TCP/IP
+
+[2014/01/08 02:36:59] Number of rows for session_id 14: 1
+[2014/01/08 02:36:59] localhost via TCP/IP
+
+[2014/01/08 02:36:59] TV show found: Wheel of Fortune
+[2014/01/08 02:36:59] localhost via TCP/IP
+
+[2014/01/08 02:36:59] Number of rows for session_id 14: 1
+[2014/01/08 02:37:02] localhost via TCP/IP
+
+[2014/01/08 02:37:02] Number of rows for session_id 14: 1
+[2014/01/08 02:37:02] localhost via TCP/IP
+
+[2014/01/08 02:37:02] Execute failed: (1048) Column 'relative' cannot be null
+[2014/01/08 02:37:02] Session participation created. (14, )
+[2014/01/08 02:42:15] localhost via TCP/IP
+
+[2014/01/08 02:42:15] Number of rows for session_id 14: 1
+[2014/01/08 02:42:16] localhost via TCP/IP
+
+[2014/01/08 02:42:16] Found user Grandma Gerda
+[2014/01/08 02:42:16] localhost via TCP/IP
+
+[2014/01/08 02:42:16] Number of rows for session_id 14: 1
+[2014/01/08 02:42:16] localhost via TCP/IP
+
+[2014/01/08 02:42:16] TV show found: Wheel of Fortune
+[2014/01/08 02:42:16] localhost via TCP/IP
+
+[2014/01/08 02:42:16] Number of rows for session_id 14: 1
+[2014/01/08 02:42:19] localhost via TCP/IP
+
+[2014/01/08 02:42:19] Number of rows for session_id : 0
+[2014/01/08 02:42:19] localhost via TCP/IP
+
+[2014/01/08 02:42:19] Number of rows for session_id : 0
+[2014/01/08 02:42:19] localhost via TCP/IP
+
+[2014/01/08 02:42:19] Number of rows for session_id : 0
+[2014/01/08 02:47:22] localhost via TCP/IP
+
+[2014/01/08 02:47:22] Number of rows for session_id 14: 1
+[2014/01/08 02:47:22] localhost via TCP/IP
+
+[2014/01/08 02:47:22] Found user Grandma Gerda
+[2014/01/08 02:47:22] localhost via TCP/IP
+
+[2014/01/08 02:47:22] Number of rows for session_id 14: 1
+[2014/01/08 02:47:22] localhost via TCP/IP
+
+[2014/01/08 02:47:22] TV show found: Wheel of Fortune
+[2014/01/08 02:47:22] localhost via TCP/IP
+
+[2014/01/08 02:47:22] Number of rows for session_id 14: 1
+[2014/01/08 02:48:24] localhost via TCP/IP
+
+[2014/01/08 02:48:24] Number of rows for session_id 14: 1
+[2014/01/08 02:48:24] localhost via TCP/IP
+
+[2014/01/08 02:48:24] Found user Grandma Gerda
+[2014/01/08 02:48:24] localhost via TCP/IP
+
+[2014/01/08 02:48:24] Number of rows for session_id 14: 1
+[2014/01/08 02:48:24] localhost via TCP/IP
+
+[2014/01/08 02:48:24] TV show found: Wheel of Fortune
+[2014/01/08 02:48:24] localhost via TCP/IP
+
+[2014/01/08 02:48:24] Number of rows for session_id 14: 1
+[2014/01/08 02:48:27] localhost via TCP/IP
+
+[2014/01/08 02:48:27] Number of rows for session_id 14: 1
+[2014/01/08 02:48:27] localhost via TCP/IP
+
+[2014/01/08 02:48:27] Found user Grandma Gerda
+[2014/01/08 02:48:27] localhost via TCP/IP
+
+[2014/01/08 02:48:27] Number of rows for session_id 14: 1
+[2014/01/08 02:48:27] localhost via TCP/IP
+
+[2014/01/08 02:48:27] TV show found: Wheel of Fortune
+[2014/01/08 02:48:27] localhost via TCP/IP
+
+[2014/01/08 02:48:27] Number of rows for session_id 14: 1
+[2014/01/08 02:48:41] localhost via TCP/IP
+
+[2014/01/08 02:48:41] Number of rows for relative something@something.com and password qwert: 1
+[2014/01/08 02:48:41] localhost via TCP/IP
+
+[2014/01/08 02:48:41] Got relative name: Hans
+[2014/01/08 02:50:18] localhost via TCP/IP
+
+[2014/01/08 02:50:18] Number of rows for session_id 14: 1
+[2014/01/08 02:50:18] localhost via TCP/IP
+
+[2014/01/08 02:50:18] Found user Grandma Gerda
+[2014/01/08 02:50:18] localhost via TCP/IP
+
+[2014/01/08 02:50:18] Number of rows for session_id 14: 1
+[2014/01/08 02:50:18] localhost via TCP/IP
+
+[2014/01/08 02:50:18] TV show found: Wheel of Fortune
+[2014/01/08 02:50:18] localhost via TCP/IP
+
+[2014/01/08 02:50:18] Number of rows for session_id 14: 1
+[2014/01/08 02:50:20] localhost via TCP/IP
+
+[2014/01/08 02:50:20] Number of rows for session_id 14: 1
+[2014/01/08 02:50:20] localhost via TCP/IP
+
+[2014/01/08 02:50:20] Found user Grandma Gerda
+[2014/01/08 02:50:20] localhost via TCP/IP
+
+[2014/01/08 02:50:20] Number of rows for session_id 14: 1
+[2014/01/08 02:50:20] localhost via TCP/IP
+
+[2014/01/08 02:50:20] TV show found: Wheel of Fortune
+[2014/01/08 02:50:20] localhost via TCP/IP
+
+[2014/01/08 02:50:20] Number of rows for session_id 14: 1
+[2014/01/08 02:50:34] localhost via TCP/IP
+
+[2014/01/08 02:50:34] Number of rows for relative something@something.com and password qwert: 1
+[2014/01/08 02:50:34] localhost via TCP/IP
+
+[2014/01/08 02:50:34] Got relative name: Hans
+[2014/01/08 02:50:34] localhost via TCP/IP
+
+[2014/01/08 02:50:34] Number of rows for session_id 14: 1
+[2014/01/08 02:50:34] localhost via TCP/IP
+
+[2014/01/08 02:50:34] Found user Grandma Gerda
+[2014/01/08 02:50:34] localhost via TCP/IP
+
+[2014/01/08 02:50:34] Number of rows for session_id 14: 1
+[2014/01/08 02:50:34] localhost via TCP/IP
+
+[2014/01/08 02:50:34] TV show found: Wheel of Fortune
+[2014/01/08 02:50:34] localhost via TCP/IP
+
+[2014/01/08 02:50:34] Number of rows for session_id 14: 1
+[2014/01/08 02:54:48] localhost via TCP/IP
+
+[2014/01/08 02:54:48] Number of rows for session_id 14: 1
+[2014/01/08 02:54:48] localhost via TCP/IP
+
+[2014/01/08 02:54:48] Session participation created. (14, something@something.com)
+[2014/01/08 02:55:06] localhost via TCP/IP
+
+[2014/01/08 02:55:06] Number of rows for session_id 14: 1
+[2014/01/08 02:55:06] localhost via TCP/IP
+
+[2014/01/08 02:55:06] Session participation deleted. (14, something@something.com)
+[2014/01/08 02:55:45] localhost via TCP/IP
+
+[2014/01/08 02:55:45] Number of rows for session_id : 0

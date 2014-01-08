@@ -8,7 +8,7 @@
 
 
 <?PHP
-require_once 'db_connection.php';
+require_once '../helper/db_connection.php';
 
 $conn = createDBConnection();
 

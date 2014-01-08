@@ -7,7 +7,7 @@
 <body>
 
 <?PHP
-require_once 'db_connection.php';
+require_once '../helper/db_connection.php';
 
 $sendung = isset($_POST["sendung"]) ? $_POST["sendung"] : "";
 
