@@ -1,9 +1,10 @@
 <?php
 	require_once 'logger.php';
+	require_once 'db_connection.php';
 	
 	function createTvSession($user, $tvShow){
 		$id = -1;
-		$mysqli = createDBConnection();
+		$mysqli = createMysqliConnection();
 		/* Prepared statement, stage 1: prepare */
 		if (!($stmt = $mysqli->prepare("INSERT INTO sessions_running (user, tv_show) VALUES (?, ?)"))) {
 			logToFile("Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error);
@@ -47,14 +48,17 @@
 	}
 	
 	function createTvSessionParticipant($tv_session_id, $r_name){
-		$mysqli = createDBConnection();
+		if (!isSessionRunning($tv_session_id)) {
+			return false;
+		}
+		$mysqli = createMysqliConnection();
 		/* Prepared statement, stage 1: prepare */
 		if (!($stmt = $mysqli->prepare("INSERT INTO session_participants (tv_session_id, relative) VALUES (?, ?)"))) {
 			logToFile("Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error);
 		}
 	
 		/* Prepared statement, stage 2: bind and execute */
-		if (!$stmt->bind_param("ii", $tv_session_id, $r_name)) {
+		if (!$stmt->bind_param("is", $tv_session_id, $r_name)) {
 			logToFile("Binding parameters failed: (" . $stmt->errno . ") " . $stmt->error);
 		}
 	
@@ -65,8 +69,30 @@
 		logToFile("Session participation created. (".$tv_session_id.", ".$r_name.")");
 	}
 	
+	function deleteTvSessionParticipant($tv_session_id, $r_name){
+		if (!isSessionRunning($tv_session_id)) {
+			return false;
+		}
+		$mysqli = createMysqliConnection();
+		/* Prepared statement, stage 1: prepare */
+		if (!($deleteStmt = $mysqli->prepare("DELETE FROM session_participants WHERE tv_session_id = ? AND relative = ?"))) {
+			logToFile("Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error);
+		}
+	
+		/* Prepared statement, stage 2: bind and execute */
+		if (!$deleteStmt->bind_param("is", $tv_session_id, $r_name)) {
+			logToFile("Binding parameters failed: (" . $deleteStmt->errno . ") " . $deleteStmt->error);
+		}
+	
+		if (!$deleteStmt->execute()) {
+			logToFile("Execute failed: (" . $deleteStmt->errno . ") " . $deleteStmt->error);
+		}
+	
+		logToFile("Session participation deleted. (".$tv_session_id.", ".$r_name.")");
+	}
+	
 	function isSessionRunning($tv_session_id){
-		$mysqli = createDBConnection();
+		$mysqli = createMysqliConnection();
 		
 		if (!($sessionSelect = $mysqli->prepare("SELECT tv_session_id FROM sessions_running WHERE tv_session_id = ?"))) {
 			logToFile("Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error);
@@ -91,7 +117,7 @@
 		if (!isSessionRunning($tv_session_id)) {
 			return false;
 		}
-		$mysqli = createDBConnection();
+		$mysqli = createMysqliConnection();
 		
 		if (!($userSelect = $mysqli->prepare("SELECT user FROM sessions_running WHERE tv_session_id = ?"))) {
 			logToFile("Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error);
@@ -124,7 +150,7 @@
 		if (!isSessionRunning($tv_session_id)) {
 			return false;
 		}
-		$mysqli = createDBConnection();
+		$mysqli = createMysqliConnection();
 	
 		if (!($tvShowSelect = $mysqli->prepare("SELECT tv_show FROM sessions_running WHERE tv_session_id = ?"))) {
 			logToFile("Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error);
@@ -152,13 +178,5 @@
 	
 		return $tv_show;
 	}
-	
-	function createDBConnection(){
-		$mysqli = new mysqli("localhost", "root", "", "sme");
-		if ($mysqli->connect_errno) {
-			logToFile("Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error);
-		}
-		logToFile($mysqli->host_info . "\n");
-		return $mysqli;
-	}
+
 ?>

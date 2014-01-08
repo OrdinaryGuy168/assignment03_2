@@ -1,14 +1,15 @@
 <?php
+	require_once '../helper/relative_db_helper.php';
 	session_start();
-	$user = $_POST['r_name'];
-	//$password = $_POST['password'];
+	$email = $_POST['r_email'];
+	$password = $_POST['pwd'];
 	
-	// ToDo: Check in DB
-	$loginCheck = true;
+	$loginCheck = checkLogin($email, $password);
 	
 	if($loginCheck){
-		$_SESSION['r_name'] = $_POST['r_name'];
-		header('Location: http://localhost/joinTvSession.php');
+		$_SESSION['r_email'] = $email;
+		$_SESSION['r_name'] = getNameByMail($email);
+		header('Location: '.$_SERVER['HTTP_REFERER']);
 	}
 ?>
 
@@ -17,7 +18,7 @@
 <body>
 	<h3>The login was not successful.</h3>
 	<p> Please try again. <br>
-	<a href="../joinTvSession.php">Go back to login page.</a>
+	<a href="../tvsessionmgmt/joinTvSession.php">Go back to login page.</a>
 	</p>
 	
 </body>

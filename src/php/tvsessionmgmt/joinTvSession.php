@@ -1,8 +1,8 @@
 <?php 
-require_once 'helper/tv_session_db_helper.php';
+require_once '../helper/tv_session_db_helper.php';
 session_start();
 if(!isset($_SESSION['tvsid'])){
-	header('Location: http://localhost/php/twitter/twitterRedirect.php');	
+	header('Location: http://localhost/php/tvsessionmgmt/sessionExpired.php');	
 }
 	$tv_session_id = $_SESSION['tvsid'];
 	$elderly = getUserByTvSession($tv_session_id);
@@ -20,13 +20,14 @@ if(!isset($_SESSION['tvsid'])){
 		echo "Unfortunately the TV-Session is not running any more. Please try another time.";
 	}elseif(!isset($_SESSION['r_name'])){ // relative is not logged in yet
 		echo "Hello. To join the TV Session please login below: </br>";	
-		echo "<form action='login/loginRelative.php' method='post'>
-				Name: <input type='text' name='r_name' /><br>
+		echo "<form action='../login/loginRelative.php' method='post'>
+				Email: 		<input type='text' name='r_email' /><br />
+				Password: 	<input type='text' name='pwd' /><br />
 				<button>Login</button>
 			</form>";
 	} else { // everything is fine and the user is logged in
 		$relative = $_SESSION['r_name'];
-		echo "<h2>Welcome ".$relative."!</h2>";
+		echo "<h2>Welcome ".$relative."! (<a href='../login/logoutRelative.php'>logout</a>)</h2>";
 		echo "<p>".$elderly." is watching ".$tv_show."</br>";
 		echo "To join click here: <a href='successfulJoined.php'>join</a>";
 		

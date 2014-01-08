@@ -3,7 +3,7 @@ session_start();
 if(isset($_GET['tvsid'])){
 	$_SESSION['tvsid'] = $_GET['tvsid'];
 	session_commit();
-	header('Location: http://localhost/php/joinTvSession.php');
+	header('Location: http://localhost/php/tvsessionmgmt/joinTvSession.php');
 }
 ?>
 <html>
