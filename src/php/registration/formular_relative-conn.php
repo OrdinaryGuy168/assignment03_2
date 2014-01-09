@@ -24,9 +24,20 @@ $cr = $_POST['cr'];
 	$result = mysql_query($insert);
 	$res = mysql_num_rows($result);
 	
+	//prof if the relative really exist.
+	$insert = "SELECT (email)
+	FROM relative
+	WHERE email='$emailrelative'";
+	$result = mysql_query($insert);
+	$res2 = mysql_num_rows($result);
+	
 if($res != 1)
 {
    echo "<h2> Error! The Host does not exist!";
+}
+elseif($res2 != 1)
+{
+	echo "<h2> Error! The Relative does not exist!";
 }
 else
 {

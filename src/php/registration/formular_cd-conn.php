@@ -20,15 +20,17 @@
 		<td><input type="text" name="emailelderly" required size ="35" maxlength="45"></td>
 	</tr>
 	<tr>
+		<td>Relative (E-Mail):</td>
+		<td><input type="text" name="emailrelative" required size ="35" maxlength="45"></td>
+	</tr>
+	<tr>
 		<td></td>
-		<td>   <p> <input type="radio" name="cr" value="create"> Connect Myself to the Host <br>     <input type="radio" name="cr" value="delete" > Delete Myself from the Host </p></td>
+		<td>   <p> <input type="radio" name="cr" value="create" checked> Connect Myself to the Host <br>     <input type="radio" name="cr" value="delete" > Delete Myself from the Host </p></td>
 	</tr>
 	</table>
 	<hr>
 	<input type="submit" value=" Connect ">
 	<input type="reset" value=" Reset ">
-
-	<input type='hidden' name='emailrelative' value='1@2.de'>
 </form>   
 
 
